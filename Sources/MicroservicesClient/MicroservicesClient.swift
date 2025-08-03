@@ -12,7 +12,7 @@ public final class MicroservicesClient {
     // MARK: - Properties
     
     /// The configuration for the microservices client
-    public let configuration: MicroservicesConfiguration
+    public var configuration: MicroservicesConfiguration
     
     /// Service discovery manager
     public let serviceDiscovery: ServiceDiscoveryManager
