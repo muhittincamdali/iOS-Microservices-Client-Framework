@@ -364,8 +364,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Issues**: [GitHub Issues](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/issues)
-- **Documentation**: [Wiki](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/wiki)
-- **Discussions**: [GitHub Discussions](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/discussions)
+- **Documentation**: [API Reference](Documentation/API-Reference.md)
+- **Examples**: [Basic Example](Examples/BasicExample.swift) | [Advanced Example](Examples/AdvancedExample.swift)
 
 ## 🚀 Roadmap
 
@@ -376,7 +376,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Metrics collection
 - [ ] Configuration hot-reload
 - [ ] Multi-region support
-- [ ] Service mesh integration
 - [ ] GraphQL support
 - [ ] gRPC support
 
