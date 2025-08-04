@@ -432,6 +432,21 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 📊 Project Statistics
+
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Microservices-Client-Framework?style=social)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Microservices-Client-Framework?style=social)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Microservices-Client-Framework)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Microservices-Client-Framework)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/pulls)
+
+</div>
+
+## 🌟 Stargazers
+
+[![Stargazers repo roster for @muhittincamdali/iOS-Microservices-Client-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Microservices-Client-Framework)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/stargazers)
+
 ## 🙏 Acknowledgments
 
 - Apple for iOS and Swift
