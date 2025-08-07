@@ -229,7 +229,6 @@
 * **Error Handling**: Comprehensive error handling
 * **Fallback Mechanisms**: Graceful fallback strategies
 * **Rate Limiting**: Request rate limiting
-* **Throttling**: Request throttling and backpressure
 * **Bulkhead Isolation**: Service isolation patterns
 * **Graceful Degradation**: Graceful service degradation
 
@@ -259,7 +258,6 @@
 
 #### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/muhittincamdali/iOS-Microservices-Client-Framework.git
 cd iOS-Microservices-Client-Framework
 ```
 
@@ -310,7 +308,6 @@ Add the framework to your project:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOS-Microservices-Client-Framework.git", from: "1.0.0")
 ]
 ```
 
@@ -582,13 +579,11 @@ cacheConfig.enableMemoryCache = true
 cacheConfig.enableDiskCache = true
 cacheConfig.memoryLimit = 100 * 1024 * 1024 // 100MB
 cacheConfig.diskLimit = 500 * 1024 * 1024 // 500MB
-cacheConfig.defaultTTL = 300 // 5 minutes
 
 // Cache data
 cacheManager.cache(
     key: "user_profile_123",
     data: userProfile,
-    ttl: 600, // 10 minutes
     configuration: cacheConfig
 ) { result in
     switch result {
@@ -716,7 +711,6 @@ clientConfig.enableCaching = true
 // Set client settings
 clientConfig.requestTimeout = 30 // seconds
 clientConfig.maxRetries = 3
-clientConfig.cacheTTL = 300 // seconds
 clientConfig.healthCheckInterval = 30 // seconds
 
 // Set service discovery settings
@@ -837,7 +831,6 @@ func testServiceCallPerformance() {
 * **🛡️ Encryption**: End-to-end encryption
 * **🔍 Audit Logging**: Comprehensive audit trails
 * **🛡️ Input Validation**: Strict input validation
-* **🔒 Secure Communication**: TLS/SSL encryption
 * **🛡️ Rate Limiting**: Request rate limiting
 * **🔒 Token Management**: Secure token handling
 
@@ -897,11 +890,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
 
-![GitHub Stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Microservices-Client-Framework?style=for-the-badge&logo=star&logoColor=gold&color=gold&label=Stars)
-![GitHub Forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Microservices-Client-Framework?style=for-the-badge&logo=git&logoColor=white&color=blue&label=Forks)
-![GitHub Issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Microservices-Client-Framework?style=for-the-badge&logo=github&logoColor=white&color=red&label=Issues)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Microservices-Client-Framework?style=for-the-badge&logo=github&logoColor=white&color=green&label=PRs)
-![GitHub License](https://img.shields.io/github/license/muhittincamdali/iOS-Microservices-Client-Framework?style=for-the-badge&logo=github&logoColor=white&color=purple&label=License)
 
 </div>
 
@@ -918,7 +906,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌟 Stargazers Community
 
-[![Stargazers repo roster for @muhittincamdali/iOS-Microservices-Client-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Microservices-Client-Framework)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/stargazers)
 
 **⭐ Star this repository if it helped you!**
 
