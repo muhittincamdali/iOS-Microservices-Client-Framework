@@ -1,5 +1,22 @@
 # Circuit Breaker API
 
+<!-- TOC START -->
+## Table of Contents
+- [Circuit Breaker API](#circuit-breaker-api)
+- [Overview](#overview)
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Installation (SPM)](#installation-spm)
+- [Quick Start](#quick-start)
+- [API Reference](#api-reference)
+- [Usage Examples](#usage-examples)
+- [Performance](#performance)
+- [Security](#security)
+- [Troubleshooting](#troubleshooting)
+- [FAQ](#faq)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Circuit Breaker API implements the circuit breaker pattern to prevent cascading failures in microservices architecture.

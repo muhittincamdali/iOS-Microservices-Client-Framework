@@ -1,5 +1,22 @@
 # Service Discovery API
 
+<!-- TOC START -->
+## Table of Contents
+- [Service Discovery API](#service-discovery-api)
+- [Overview](#overview)
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Installation (SPM)](#installation-spm)
+- [Quick Start](#quick-start)
+- [API Reference](#api-reference)
+- [Usage Examples](#usage-examples)
+- [Performance](#performance)
+- [Security](#security)
+- [Troubleshooting](#troubleshooting)
+- [FAQ](#faq)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Service Discovery API provides dynamic service registration, discovery, and health monitoring capabilities.
