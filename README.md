@@ -918,7 +918,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌟 Stargazers Community
 
-[![Stargazers repo roster for @muhittincamdali/iOS-Microservices-Client-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Microservices-Client-Framework)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/stargazers)
+[![Stargazers repo roster for @muhittincamdali/iOS-Microservices-Client-Framework](https://starchart.cc/muhittincamdali/iOS-Microservices-Client-Framework.svg)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/stargazers)
 
 **⭐ Star this repository if it helped you!**
 
