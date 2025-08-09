@@ -1,4 +1,5 @@
 # 🏗️ iOS Microservices Client Framework
+[![CI](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/muhittincamdali/iOS-Microservices-Client-Framework/actions/workflows/ci.yml)
 
 <!-- TOC START -->
 ## Table of Contents
