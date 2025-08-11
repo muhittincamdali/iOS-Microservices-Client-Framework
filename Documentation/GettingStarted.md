@@ -1,56 +1,35 @@
-# Getting Started Guide
+# 🚀 Getting Started
 
-<!-- TOC START -->
-## Table of Contents
-- [Getting Started Guide](#getting-started-guide)
-- [Overview](#overview)
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Installation (SPM)](#installation-spm)
-- [Quick Start](#quick-start)
-- [API Reference](#api-reference)
-- [Usage Examples](#usage-examples)
-- [Performance](#performance)
-- [Security](#security)
-- [Troubleshooting](#troubleshooting)
-- [FAQ](#faq)
-<!-- TOC END -->
+Welcome to our world-class iOS development framework! This guide will help you get started quickly and efficiently.
 
+## Prerequisites
 
-## Overview
+- iOS 15.0+
+- Xcode 14.0+
+- Swift 5.9+
+- macOS 12.0+
 
-This guide provides comprehensive information about getting started with the framework.
+## Installation
 
-## Overview
-This document belongs to the iOS Microservices Client Framework repository. It explains goals, scope, and usage.
+### Swift Package Manager
 
-## Architecture
-Clean Architecture and SOLID are followed to ensure maintainability and scalability.
+Add the following dependency to your `Package.swift`:
 
-## Installation (SPM)
 ```swift
-.package(url: "https://github.com/owner/iOS-Microservices-Client-Framework.git", from: "1.0.0")
+dependencies: [
+    .package(url: "https://github.com/muhittincamdali/REPO_NAME.git", from: "1.0.0")
+]
 ```
 
-## Quick Start
-```swift
-// Add a concise example usage here
-```
+## Basic Setup
 
-## API Reference
-Describe key types and methods exposed by this module.
+1. Import the framework
+2. Initialize the main component
+3. Configure your settings
+4. Start using the features
 
-## Usage Examples
-Provide several concrete end-to-end examples.
+## Next Steps
 
-## Performance
-List relevant performance considerations.
-
-## Security
-Document security-sensitive areas and mitigations.
-
-## Troubleshooting
-Known issues and solutions.
-
-## FAQ
-Answer common questions with clear, actionable guidance.
+- Check out our [Examples](Examples/) folder
+- Read the [API Documentation](API.md)
+- Explore [Advanced Usage](AdvancedUsage.md)
