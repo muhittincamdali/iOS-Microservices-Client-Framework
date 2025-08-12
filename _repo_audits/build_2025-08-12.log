@@ -1,0 +1,5 @@
+warning: 'ios-microservices-client-framework': Source files for target MicroservicesClientAnalytics should be located under 'Sources/MicroservicesClientAnalytics', or a custom sources path can be set with the 'path' property in Package.swift
+warning: 'ios-microservices-client-framework': Source files for target MicroservicesClientCoreTests should be located under 'Tests/MicroservicesClientCoreTests', or a custom sources path can be set with the 'path' property in Package.swift
+warning: 'ios-microservices-client-framework': Source files for target MicroservicesClientAnalyticsTests should be located under 'Tests/MicroservicesClientAnalyticsTests', or a custom sources path can be set with the 'path' property in Package.swift
+warning: 'ios-microservices-client-framework': Source files for target MicroservicesClientPerformanceTests should be located under 'Tests/MicroservicesClientPerformanceTests', or a custom sources path can be set with the 'path' property in Package.swift
+error: 'ios-microservices-client-framework': target 'MicroservicesClientAnalytics' referenced in product 'MicroservicesClientAnalytics' is empty
